@@ -1,0 +1,104 @@
+>>> 2 + 3
+5
+
+>>> 2 ** 3
+8
+
+>>> "Ola"
+'Ola'
+
+>>> "Hi there " + "Ola"
+'Hi there Ola'
+
+>>> "Ola" * 3
+'OlaOlaOla'
+
+>>> "Runnin' down the hill"
+"Runnin' down the hill"
+
+>>> 'Runnin\' down the hill'
+"Runnin' down the hill"
+
+>>> "Ola".upper()
+'OLA'
+
+>>> len("Ola")
+3
+
+>>> len(str(304023))
+6
+
+>>> name = "Sonja"
+>>> name
+'Sonja'
+
+>>> len(name)
+5
+
+>>> a = 4
+>>> b = 6
+>>> a * b
+24
+
+>>> name = 'Maria'
+>>> name
+'Maria'
+>>> print(name)
+Maria
+
+>>> []
+[]
+
+>>> lottery = [3, 42, 12, 19, 30, 59]
+
+>>> len(lottery)
+6
+
+>>> lottery.sort()
+
+>>> print(lottery)
+[3, 12, 19, 30, 42, 59]
+
+>>> lottery.reverse()
+>>> print(lottery)
+[59, 42, 30, 19, 12, 3]
+
+>>> lottery.append(199)
+>>> print(lottery)
+[59, 42, 30, 19, 12, 3, 199]
+
+>>> print(lottery[0])
+59
+>>> print(lottery[1])
+42
+
+>>> print(lottery)
+[59, 42, 30, 19, 12, 3, 199]
+>>> print(lottery[0])
+59
+>>> lottery.pop(0)
+59
+>>> print(lottery)
+[42, 30, 19, 12, 3, 199]
+
+>>> {}
+{}
+
+>>> participant = {'name': 'Ola', 'country': 'Poland', 'favorite_numbers': [7, 42, 92]}
+
+>>> print(participant['name'])
+Ola
+
+>>> participant['favorite_language'] = 'Python'
+
+>>> len(participant)
+4
+
+>>> participant.pop('favorite_numbers')
+[7, 42, 92]
+>>> participant
+{'country': 'Poland', 'favorite_language': 'Python', 'name': 'Ola'}
+
+>>> participant['country'] = 'Germany'
+>>> participant
+{'country': 'Germany', 'favorite_language': 'Python', 'name': 'Ola'}
